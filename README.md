@@ -71,7 +71,7 @@ In order to develop and contribute, fork this project and clone it to your local
 We use Visual Studio Code for development and recommend you to use it as well.
 
 You should have Python 3.11 or above.  
-We recommennd working with a virtual environment to isolate the packages.
+We recommend working with a virtual environment to isolate the packages.
 
 You can install ```virtualenv``` for that purpose
 
