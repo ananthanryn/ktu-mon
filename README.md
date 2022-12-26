@@ -91,10 +91,20 @@ Now create a new terminal in Visual Studio Code and you'll see that the virtual 
 
 >You can see ```(venv)``` in the shell prompt of the terminal.
 
-After which you can install KTU Mon package with the dev packages by executing the following command
+After which type in the following command to install an editable module of the project you are working on
 
 ```
-pip install ktumon[dev]
+pip install -e .[dev]
 ```
+
+After making any changes to the code you can always run it whenever by executing ```ktumon```  
+
+Whenever you are modifying the code, most of the time you won't have to rebuild and reinstall the editable module and that is the advantage of this approach.
 
 Now you're all set!
+
+The following command is used to build the distribution packages
+
+```
+python -m build
+```
