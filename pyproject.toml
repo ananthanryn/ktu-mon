@@ -13,7 +13,7 @@ name = "ktumon"
 authors = [{name = "Anantha Narayanan N", email = "ananthanryn@gmail.com"}]
 license = {file = "LICENSE"}
 readme = "README.md"
-keywords = ["ktu", "mon", "ktumon", "kerala"]
+keywords = ["ktu", "ktumon", "kerala"]
 classifiers = [
     "License :: OSI Approved :: MIT License",
     "Development Status :: 5 - Production/Stable",
